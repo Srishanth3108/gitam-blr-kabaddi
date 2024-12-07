@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+}
+
+header {
+    background: #0044cc;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    background: url('assets/images/banner.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #e60026;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.gallery-grid {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.gallery-grid img {
+    width: 200px;
+    border-radius: 5px;
+}
